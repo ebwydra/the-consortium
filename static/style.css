@@ -1,0 +1,22 @@
+body {
+  margin: 100px;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #BBBAC6;
+}
+
+div.content {
+  text-align: center;
+  border-style: double;
+  border-width: 5px;
+  border-color: #414A4E;
+  background-color: #E2E2E2;
+}
+
+h1 {
+  color: #414A4E;
+}
+
+h3, p {
+  color: #1C0F13;
+}

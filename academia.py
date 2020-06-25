@@ -110,14 +110,3 @@ def generate_mission():
         target = target + "."
 
     return target
-
-i = 0
-result_list = []
-while i < 10:
-    result = generate_mission()
-    result_list.append(result)
-    i += 1
-
-# print(len(result_list))
-# for res in result_list:
-#     print(res)
