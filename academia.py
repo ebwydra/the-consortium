@@ -119,5 +119,5 @@ while i < 10:
     i += 1
 
 # print(len(result_list))
-for res in result_list:
-    print(res)
+# for res in result_list:
+#     print(res)
