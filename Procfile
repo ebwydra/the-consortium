@@ -1,1 +1,1 @@
-web: gunicorn app:consortium-app
+web: gunicorn consortium-app:app
