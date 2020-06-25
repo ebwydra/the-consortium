@@ -11,4 +11,4 @@ def index():
 
 if __name__ == '__main__':
     print('starting Flask app', app.name)
-    app.run(debug=True)
+    app.run(threaded=True, port=5000)
