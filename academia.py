@@ -1,5 +1,7 @@
 import random
 
+### Components ###
+
 padding = ['Our aim is to',  'Our goal is to', 'Our mission is to', 'We', 'We seek to', 'We strive to']
 
 verb_tups = [('achiev','e','ing', '+'),
@@ -12,6 +14,7 @@ verb_tups = [('achiev','e','ing', '+'),
 ('design', '', 'ing', '+'),
 ('disseminat', 'e', 'ing', '+'),
 # ('eliminat', 'e', 'ing', '-'),
+('elucidat','e','ing','+')
 ('energiz','e','ing', '+'),
 ('engag', 'e', 'ing', '+'),
 ('enrich', '', 'ing', '+'),
@@ -22,14 +25,18 @@ verb_tups = [('achiev','e','ing', '+'),
 ('innovat','e','ing', '+'),
 # ('overcom', 'e', 'ing', '-'),
 ('promot','e','ing', '+'),
+('redesign','','ing','+')
+('rethink','','ing','+')
 # ('reduc', 'e', 'ing', '-'),
 # ('remov', 'e', 'ing', '-'),
 ('serv', 'e', 'ing', '+'),
 ('support','','ing', '+')]
 
-adjs = ['academic', 'bleeding-edge', 'collaborative', 'community', 'culturally-informed', 'cutting-edge', 'diverse', 'educational', 'environmentally-friendly', 'elegant', 'ethical', 'forward-thinking', 'high-impact', 'innovative', 'interdisciplinary', 'international', 'low-cost', 'multicultural', 'outstanding', 'preeminent', 'socially-conscious', 'sustainable', 'unique']
+adjs = ['academic', 'ambitious', 'bleeding-edge', 'collaborative', 'community', 'culturally-informed', 'cutting-edge', 'diverse', 'educational', 'entrepreneurial', 'environmentally-friendly', 'ethical', 'forward-thinking', 'fresh', 'global', 'globally-respected', 'high-impact', 'highly-regarded', 'innovative', 'interdisciplinary', 'international', 'lasting' 'local', 'low-cost', 'multicultural', 'outstanding', 'preeminent', 'scholarly', 'socially-conscious', 'sustainable', 'top-ranked', 'unique', 'world-changing', 'world-renowned']
 
-nouns = ['challenges', 'collaboration', 'diversity', 'excellence', 'faculty', 'information', 'knowledge', 'needs', 'opportunities', 'people', 'practice', 'research', 'resources', 'results', 'scholarship', 'solutions', 'spaces', 'students', 'teaching', 'technology', 'training', 'understanding', 'values']
+nouns = ['capacity', 'challenges', 'collaboration', 'concepts', 'design', 'diversity', 'excellence', 'faculty', 'ideas', 'information', 'knowledge', 'leadership', 'needs', 'opportunities', 'people', 'perspectives', 'practice', 'research', 'resources', 'results', 'scholarship', 'solutions', 'spaces', 'students', 'teaching', 'technology', 'training', 'understanding', 'values', 'vision']
+
+### Function Definition ###
 
 def generate_mission():
     v1 = random.choice(verb_tups) # first verb
