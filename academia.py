@@ -32,7 +32,7 @@ verb_tups = [('achiev','e','ing', '+'),
 ('serv', 'e', 'ing', '+'),
 ('support','','ing', '+')]
 
-adjs = ['academic', 'ambitious', 'bleeding-edge', 'collaborative', 'community', 'culturally-informed', 'cutting-edge', 'diverse', 'educational', 'entrepreneurial', 'environmentally-friendly', 'ethical', 'forward-thinking', 'fresh', 'global', 'globally-respected', 'high-impact', 'highly-regarded', 'innovative', 'interdisciplinary', 'international', 'lasting' 'local', 'low-cost', 'multicultural', 'outstanding', 'preeminent', 'scholarly', 'socially-conscious', 'sustainable', 'top-ranked', 'unique', 'world-changing', 'world-renowned']
+adjs = ['academic', 'ambitious', 'bleeding-edge', 'collaborative', 'community', 'culturally-informed', 'cutting-edge', 'diverse', 'educational', 'entrepreneurial', 'environmentally-friendly', 'ethical', 'forward-thinking', 'fresh', 'global', 'globally-respected', 'high-impact', 'highly-regarded', 'innovative', 'interdisciplinary', 'international', 'lasting', 'local', 'low-cost', 'multicultural', 'outstanding', 'preeminent', 'scholarly', 'socially-conscious', 'sustainable', 'top-ranked', 'unique', 'world-changing', 'world-renowned']
 
 nouns = ['capacity', 'challenges', 'collaboration', 'concepts', 'design', 'diversity', 'excellence', 'faculty', 'ideas', 'information', 'knowledge', 'leadership', 'needs', 'opportunities', 'people', 'perspectives', 'practice', 'research', 'resources', 'results', 'scholarship', 'solutions', 'spaces', 'students', 'teaching', 'technology', 'training', 'understanding', 'values', 'vision']
 
